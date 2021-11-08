@@ -1,0 +1,75 @@
+.footer {
+    padding-top: 50px;
+    background-color: #212121;
+    font-family: Proxima Nova;
+    font-size: 15px;
+    line-height: 175.78%;
+    color: $heading-color;
+    &-top {
+        display: grid;
+        grid-template-columns: 3fr repeat(4, 1fr);
+        grid-gap: 150px 80px;
+        padding-bottom: 30px;
+    }
+    &-end {
+        height: 39px;
+        background-color: black;
+    }
+    &-logo {
+        width: 142px;
+        margin-bottom: 30px;
+    }
+    &-desc {
+        color: rgb(212, 211, 211);
+        width:265px;
+        margin-bottom: 40px;
+        font-size: 14px;
+        line-height: 17px;
+        margin-right: 192px;
+    }
+    &-social {
+        margin-top: 30px;
+    }
+    &-icon {
+        width: 21px;
+        height: 21px;
+        display: inline;
+    }
+    &-item-right {
+        margin-top: 30px;
+        width: 155px;
+    }
+    &-item-beet {
+        margin-top: 30px;
+        width: 200px;
+    }
+    &-item-end {
+        margin-top: 100px;
+        width: 140px;
+    }
+    &-link {
+        color: $heading-color;
+        display: block;
+        font-size: 14px;
+        font-style: normal;
+        color: rgb(212, 211, 211);
+    }
+    &-show {
+        
+        display: inline;
+        font-size: 12px;
+    }
+    &-all {
+        margin-left: 110px;
+        color: $heading-color;
+        font-style: bold;
+    }
+    &-po {
+        margin-left: 880px;
+        color: $heading-color;
+    }
+    &-cre {
+        margin-left: 30px;
+        color: rgb(173, 93, 18);
+    }
+}

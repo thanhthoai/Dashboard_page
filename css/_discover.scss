@@ -1,0 +1,112 @@
+.discover {
+    margin-bottom: 77px;
+       &-header {
+        width: 1301px;
+        height: 889px;
+        // margin-top: 449px;
+        margin-left: 100px;
+        background: #FFF7DF;
+        border: 1px solid #EFEFEF;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    &-grid {
+        width: 961px;
+        height: 745px;
+        margin-top: 77px;
+        margin-left: 170px;
+    }
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    &-item {
+        position: relative;
+        height: 362px;
+        width:303px;
+    }
+    &-image {
+        height: 208px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &-top {
+        border-radius: 5px;
+        padding: 5px 20px;
+        color: #fff;
+        font-weight: bold;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 88px;
+        height: 33px;
+        background: $bgc-gradient;
+      }
+      &-content {
+        width: 303px;
+        height: 154px;
+        background: $bgc-gradient;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        }
+        &-link {
+            height: 60px;
+            width: 303px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 60px;
+            margin-bottom: 10px;
+        }
+        &-img {
+                margin-top: 20px;
+                margin-left: 10px;
+                height: 20px;
+                width: 5px;
+        }
+        &-text {     
+                width: 170px;
+                margin: 13px 10px 10px 20px;
+                font-family: Proxima Nova;
+                font-size: 15px;
+                line-height: 152.34%;
+                color: white;
+                font-weight: bold;
+              }
+              &-nav {
+                margin: 10px;
+            }
+        &-eval {
+            display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 45px; 
+        margin: 0 28px;
+        img {
+            height: 15px;
+            width: 100px;
+        }
+        }
+        &-desc {
+            font-family: Proxima Nova;
+            font-size: 14px;
+            line-height: 152.34%;
+            color: #FFFFFF;
+        }
+        &-lv {
+            margin: 10px 180px 10px 10px ;
+            a {
+                font-family: Proxima Nova;
+                font-size: 12px;
+                line-height: 152.34%;
+                text-decoration-line: underline;
+                color: #FFFFFF;
+            }
+        }
+        &-btn {
+            margin: 150px 0 0 104px;
+        }
+}
+       

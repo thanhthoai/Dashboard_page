@@ -1,0 +1,41 @@
+.hero {
+    &-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-header {
+        width: 1301px;
+        height: 178px;
+        margin-left: 100px;
+        margin-top: 279px;
+        background-color: #FFF7DF;
+        border: 1px solid #EFEFEF;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    &-heading {
+        text-align: center;
+        margin-top: 60px;
+        color: $text-color;
+        font-family: Proxima Nova;
+        font-size: 18px;
+        line-height: 31.64px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    &-boder {
+        margin-left: 390px;
+        display: grid;
+        grid-template-columns: 180px 180px 180px;
+        text-align: center;
+        padding: 0 0 50px ;
+        h2 {
+            color: $text-color;
+            font-family: Proxima Nova;
+        font-size: 18px;
+        line-height: 31.78%;
+        }
+    }
+   
+}
